@@ -46,7 +46,7 @@ def extract_text(url_id,url):
         f.write(article_title+'\n')
         f.write(article_content)
 
-# input_data.apply(lambda row: extract_text(row['URL_ID'],row['URL']),axis=1)
+input_data.apply(lambda row: extract_text(row['URL_ID'],row['URL']),axis=1)
 
 # ### function to preprocess text, i.e, break text into sentences and words and then removing stop words from text and lowercasing it
 

@@ -3,9 +3,8 @@ Submission from: Dheeraj Kukreja
 Instructions:
 This folder contains 
 an articles folder where all the text in aritcles given in links is stored with their url_id
-a files folder which has input excel file,ouput excel file and two folders:
-    stop_words=> which has all listed stopwords given in text analysys.word file in problem statement
-    master dictionary=> which has all listed  positive and negative words in csv file given in text analysys.word file in problem statement
+a files folder which has input excel file,ouput excel file and one folder:
+    master dictionary=> which has all listed  positive and negative words in csv file given downloaded from link "https://sraf.nd.edu/textual-analysis/resources/"
 a jupyter notebook file which has whole process with comments
 a .py file which is output of jupyter notebook
 
